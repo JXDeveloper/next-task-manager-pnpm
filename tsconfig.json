@@ -32,7 +32,8 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "app/dashboard/tasks/page.jsx"
   ],
   "exclude": [
     "node_modules"
