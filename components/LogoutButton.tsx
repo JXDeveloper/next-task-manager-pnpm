@@ -7,7 +7,7 @@ export function LogoutButton() {
     <button
       onClick={async () => {
         await authClient.signOut();
-        window.location.href = "/auth/sign-in";
+        window.location.replace("/auth/sign-in");
       }}
     >
       Sign Out

@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     "app/dashboard/tasks/page.jsx"
-  ],
+, "app/(landing)/page.jsx", "app/(landing)/layout.jsx"  ],
   "exclude": [
     "node_modules"
   ]

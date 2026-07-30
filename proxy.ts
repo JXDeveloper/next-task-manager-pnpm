@@ -11,7 +11,6 @@ export default async function middleware(request: NextRequest) {
   })(request);
 
   if (response instanceof NextResponse) {
-    console.log("here we are running in this if statement 8====>");
     response.headers.set("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
     response.headers.set("Pragma", "no-cache");
     response.headers.set("Expires", "0");
